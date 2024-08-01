@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a5cc4bd742719e46849bf9ac03a44b0, type: 3}
+  m_Name: stats_player
+  m_EditorClassIdentifier: 
+  WalkSpeed: 4
+  SprintSpeed: 6
+  GroundAcceleration: 40
+  GroundDeceleration: 120
+  AirDeceleration: 35.6
+  AirAcceleration: 3
+  GroundingForce: -1.5
+  MaxSlopeAngle: 45
+  canJump: 1
+  JumpPower: 9.6
+  MaxFallSpeed: 98
+  FallAcceleration: 35
+  CoyoteTime: 0.15
+  JumpBuffer: 0.23
