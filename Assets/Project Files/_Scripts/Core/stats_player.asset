@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a5cc4bd742719e46849bf9ac03a44b0, type: 3}
   m_Name: stats_player
   m_EditorClassIdentifier: 
-  WalkSpeed: 4
+  WalkSpeed: 3
   SprintSpeed: 6
   GroundAcceleration: 40
   GroundDeceleration: 120
@@ -20,6 +20,7 @@ MonoBehaviour:
   AirAcceleration: 3
   GroundingForce: -1.5
   MaxSlopeAngle: 45
+  rotSpeed: 5
   canJump: 1
   JumpPower: 9.6
   MaxFallSpeed: 98
